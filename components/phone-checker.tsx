@@ -54,7 +54,7 @@ export function PhoneChecker() {
         </div>
       ) : (
         <form onSubmit={submit}>
-          <div className="checker-heading"><div className="checker-shield"><Phone size={24} /></div><div><span>Consulta antifraude</span><h2>Esse número é da CPPEM?</h2></div></div>
+          <div className="checker-heading"><div className="checker-shield"><Phone size={24} /></div><div><span>Consulta antifraude</span><h2>Esse número é do CPPEM?</h2></div></div>
           <p className="checker-description">Digite o número que entrou em contato com você.</p>
           <label htmlFor="phone">Número de telefone</label>
           <div className="phone-field"><span>BR</span><input id="phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" placeholder="(81) 99999-9999" value={number} onChange={(event) => setNumber(maskPhone(event.target.value))} aria-describedby="phone-help" required /><Phone size={19} /></div>
