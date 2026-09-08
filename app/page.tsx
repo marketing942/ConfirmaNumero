@@ -24,7 +24,7 @@ export default function Home() {
           <div className="hero-copy">
             <span className="eyebrow"><ShieldCheck size={15} /> Canal oficial de verificação</span>
             <h1>Antes de responder,<br /><span>confirme o número.</span></h1>
-            <p>Recebeu uma mensagem em nome da CPPEM? Digite o telefone e descubra, em poucos segundos, se ele pertence à nossa equipe.</p>
+            <p>Recebeu uma mensagem em nome do CPPEM? Digite o telefone e descubra, em poucos segundos, se ele pertence à nossa equipe.</p>
             <div className="trust-row">
               <span><LockKeyhole size={17} /> Consulta privada</span>
               <span><BadgeCheck size={17} /> Base oficial CPPEM</span>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="steps-grid">
             <article><span className="step-number">01</span><div className="step-icon"><SearchCheck size={25} /></div><h3>Digite o número</h3><p>Informe o telefone completo, com DDD. Você pode colar com ou sem espaços e pontuação.</p></article>
-            <article><span className="step-number">02</span><div className="step-icon"><Database size={25} /></div><h3>Consulte a base</h3><p>O sistema compara o telefone com o cadastro oficial de canais ativos da CPPEM.</p></article>
+            <article><span className="step-number">02</span><div className="step-icon"><Database size={25} /></div><h3>Consulte a base</h3><p>O sistema compara o telefone com o cadastro oficial de canais ativos do CPPEM.</p></article>
             <article><span className="step-number">03</span><div className="step-icon"><ShieldCheck size={25} /></div><h3>Veja o resultado</h3><p>Você recebe uma confirmação clara para continuar a conversa ou interromper o contato.</p></article>
           </div>
         </div>
