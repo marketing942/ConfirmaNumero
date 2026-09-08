@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description: "Confirme se um número de WhatsApp ou telefone pertence oficialmente à equipe CPPEM.",
   applicationName: "CPPEM Número Seguro",
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/brand/logo-cppem.png",
+    shortcut: "/brand/logo-cppem.png",
+    apple: "/brand/logo-cppem.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
